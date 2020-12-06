@@ -3,11 +3,11 @@ printf "Data is available for:\n"
 
 wdir=$(pwd)
 
-cd /home/zajc/.netlogger/
+cd /home/$USER/.netlogger/
 ls -1
 read -e -p "Choose a month: " file
 
 cd $wdir
 
 printf "\n"
-go run /usr/lib/nethogs-parser/hogs.go -type=pretty /home/zajc/.netlogger/$file | grep -v root
+go run /usr/lib/nethogs-parser/hogs.go -type=pretty /home/$USER/.netlogger/$file | grep -v root
