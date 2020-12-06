@@ -1,0 +1,11 @@
+[Unit]
+Description=Nethogs logging daemon
+
+[Service]
+Type=simple
+Restart=on-failure
+User=root
+ExecStart=/opt/netlogger/netlogger.sh
+
+[Install]
+WantedBy=multi-user.target
