@@ -3,7 +3,7 @@ printf "Data is available for:\n"
 
 wdir=$(pwd)
 
-cd /home/$USER/.netlogger/
+cd /var/log/netlogger/
 ls -1
 read -e -p "Choose a month: " file
 
