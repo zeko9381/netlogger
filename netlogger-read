@@ -10,4 +10,4 @@ read -e -p "Choose a month: " file
 cd $wdir
 
 printf "\n"
-go run /usr/lib/nethogs-parser/hogs.go -type=pretty /home/$USER/.netlogger/$file | grep -v root
+go run /usr/lib/nethogs-parser/hogs.go -type=pretty /var/log/netlogger/$file | grep -v root
