@@ -1,5 +1,6 @@
 [Unit]
 Description=Nethogs logging daemon
+After=network.target
 
 [Service]
 Type=simple
