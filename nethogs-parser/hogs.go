@@ -154,7 +154,7 @@ func (d DATA) prettyprint() {
 	fmt.Printf("%-100.100s\t%-10.12s\t%-10.12s\t%-10.10s\n", "PROCESS NAME", "SENT", "RECEIVED", "USER")
 	data := d.val
 	for proc, _ := range data {
-		fmt.Printf("%-100.100s\t%-10.1f MB\t%-10.1f MB\t%-10.10s\n", proc, (data[proc].sent / 1000), (data[proc].recv / 1000),
+		fmt.Printf("%-100.100s\t%-10.1f MB\t%-10.1f MB\t%-10.10s\n", proc, (data[proc].sent / 10), (data[proc].recv / 10),
 			strings.Join(data[proc].users.get(), ","))
 	}
 	fmt.Printf("\n\n")
