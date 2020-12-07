@@ -3,10 +3,10 @@ A simple collection of scripts that log how much network data each process consu
 
 ## Install instructions
 ### List of dependencies
-- nethogs
-- go
-- systemd
-- git
+- [nethogs](https://github.com/raboof/nethogs)
+- [go](https://github.com/golang/go)
+- [systemd](https://github.com/systemd/systemd)
+- [git](https://git-scm.com/downloads)
 
 ### Using the install script
 Download the installer script:  
