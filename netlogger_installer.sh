@@ -23,5 +23,8 @@ systemctl start netlogger.service
 printf "Installing the netlogger-read script...\n"
 cp netlogger-read /usr/bin/
 
+printf "Creating log directory...\n"
+mkdir -p /var/log/netlogger/
+
 printf "Cleaning up...\n"
 rm -r ../netlogger
