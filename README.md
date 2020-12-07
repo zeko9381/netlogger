@@ -7,6 +7,7 @@ A simple collection of scripts that log how much network data each process consu
 - [go](https://github.com/golang/go)
 - [systemd](https://github.com/systemd/systemd)
 - [git](https://git-scm.com/downloads)
+- [wget](https://www.gnu.org/software/wget/)
 
 ### Using the install script
 Download the installer script:  
