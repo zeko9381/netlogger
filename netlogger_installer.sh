@@ -7,11 +7,11 @@ git clone https://github.com/zeko9381/netlogger
 cd netlogger
 
 printf "Installing nethogs-parser...\n"
-mkdir /usr/lib/nethogs-parser
+mkdir -p /usr/lib/nethogs-parser
 cp nethogs-parser/hogs.go /usr/lib/nethogs-parser/
 
 printf "Installing the Netlogger script...\n"
-mkdir /opt/netlogger
+mkdir -p /opt/netlogger
 cp netlogger /opt/netlogger/
 
 printf "Installing the systemd service and enabling it to run at startup...\n"
