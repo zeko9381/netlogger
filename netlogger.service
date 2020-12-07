@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 Restart=on-failure
 User=root
-ExecStart=/opt/netlogger/netlogger.sh
+ExecStart=/opt/netlogger/netlogger
 
 [Install]
 WantedBy=multi-user.target
